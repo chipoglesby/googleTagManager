@@ -2,7 +2,7 @@ function() {
   return function(model) {
     
     // Change this to the Custom Dimension index to which you want to send the experiment data!
-    var customDimensionIndex = '6';
+    var customDimensionIndex = '{{optimize CD}}';
 
     // Make sure the new hit is only generated once (thanks Vibhor Jain!)
     var hasNewHitBeenGenerated = false;
