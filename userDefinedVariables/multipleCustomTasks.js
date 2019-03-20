@@ -1,8 +1,8 @@
 function() {
-  var clientIdIndex = 1; // Change this number to the index of your Client ID Custom Dimension
-  var hitTypeIndex = 10; // Change this number to the index of your Hit Type Custom Dimension
-  var payloadLengthIndex = 11; // Change this number to the index of your Payload Length Custom Dimension
-  var optimizeIndex = 12;
+  var clientIdIndex = {{clientIdIndex}}; // Change this number to the index of your Client ID Custom Dimension
+  var hitTypeIndex = {{hitTypeIndex}}; // Change this number to the index of your Hit Type Custom Dimension
+  var payloadLengthIndex = {{payloadLengthIndex}}; // Change this number to the index of your Payload Length Custom Dimension
+  var optimizeIndex = {{optimizeIndex}};
   return function(model) {
     var globalSendTaskName, originalSendHitTask, originalHitPayload, hitPayload, customDimensionParameter;
 
