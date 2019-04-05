@@ -1,4 +1,4 @@
 <script>
-  document.getElementById("xxx").value = "{{Find GCLID in History}}";
-  document.getElementById("xxx").value = "{{Find FBCLID in History}}";
+  document.getElementById("xxx").value = "{{FindGCLID}}"
+  document.getElementById("xxx").value = "{{FindFBCLID}}";
 </script>
